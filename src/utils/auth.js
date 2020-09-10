@@ -20,10 +20,10 @@ const refreshPromises = [];
 export function getAuthClient(config = {}) {
   const defaultConfig = {
     // Base URL of your Drupal site.
-    base: 'http://localhost:32946',
+    base: 'https://localhost:32837',
     // Name to use when storing the token in localStorage.
     token_name: 'drupal-oauth-token',
-    // OAuth client ID - get from Drupal.
+    // OAuth client ID - get from Drupal. (https://localhost:32825/admin/config/services/consumer)
     client_id: '0bf9359b-15e0-47eb-8d68-e1c2f72dd20d',
     // OAuth client secret - set in Drupal.
     client_secret: 'app',
